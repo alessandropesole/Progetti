@@ -1,0 +1,55 @@
+#div-card {
+    background-color: rgba(255, 255, 255, 0.575); 
+    border-radius: 50px;
+    padding: 20px 15px;
+    max-width:80vw;
+    
+}
+
+
+
+.h3 {
+    margin-bottom: 3vh
+}
+
+#forecast-title{
+    margin-left: 4.5vw
+}
+
+
+@media only screen and (max-width: 700px){
+    #container-grafico{
+        display:none
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #div-head {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1319px) { 
+   
+    #grafico {
+        max-width: 75vw;    
+    }
+}
+
+@media only screen and (min-width: 449px) and (max-width: 699px) { 
+    #forecast-title{
+        margin-left: 0;
+    }
+
+    #grafico {
+        max-width:75vw;    
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 450px) {
+    
+    #grafico {
+        max-width:75vw;     
+    }
+}
+

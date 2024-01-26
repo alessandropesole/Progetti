@@ -1,0 +1,19 @@
+
+#my-nav {
+    background-color: #141414;
+}
+#basic-navbar-nav {
+    color:white
+}
+#drop-genres :nth-child(n):hover {
+   background-color:black
+}
+
+#card-film:hover {
+    transform:scale(1.1);
+    transition-duration: 0.2s;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 3px 26px 5px #2B2B2B; 
+box-shadow: 1px 3px 26px 5px #2B2B2B;
+}
+
