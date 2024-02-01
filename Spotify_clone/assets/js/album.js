@@ -55,11 +55,11 @@ function createAlbumSection(data) {
     }</a></span>
         <span class="">- ${year}</span>
         <span class="">-${data.nb_tracks} brani,</span>
-        <span class="text-secondary">${min + ' min. ' + sec + ' sec.'}</span>
+        <span>${min + ' min. ' + sec + ' sec.'}</span>
         </p>
         </div>
         </div>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        <p class="card-text" id="updated"><small >Last updated 3 mins ago</small></p>
       </div>
      <div/>
     </div>

@@ -15,6 +15,7 @@ const CardsNextDays = ({ nextDay }) => {
     //la prop nextday viene valorizzata nel componente CardCity 
     return (
         <>
+        
             <Col xs={12} md={6} xl={4} xxl={3} id='col-nextdays' className="d-flex justify-content-center align-items-center px-2">
                 <div>
                     <img width='140px' className="ms-0" src={`./src/assets/icons/${nextDay.weather[0].icon}.png`} />
