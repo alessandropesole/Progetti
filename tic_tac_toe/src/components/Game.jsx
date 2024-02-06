@@ -46,8 +46,7 @@ const Game = () => {
 
     const checkWin = () => {
         if (data[0] === data[1] && data[1] === data[2] && data[2] !== ''){
-            won(data[2]);
-           
+            won(data[2]); 
         }
         else if (data[3] === data[4] && data[4] === data[5] && data[5] !== ''){
             won(data[5]);
@@ -70,6 +69,12 @@ const Game = () => {
         else if (data[2] === data[4] && data[4] === data[6] && data[6] !== ''){
             won(data[6]);
         }
+        const draw = data.every((cell) => cell !== '');
+        if(draw) {
+            titleRef.current.innerHTML = `it's a draw!`;
+            setLock(true)
+
+        }
     }
 
     const won = (winner) => {
@@ -83,6 +88,7 @@ const Game = () => {
             titleRef.current.innerHTML  = `The Winner is: <img src='${circle}'/>`
             setScoreO(scoreO + 1) 
         }
+        
     }
 
     const reset = () => {
