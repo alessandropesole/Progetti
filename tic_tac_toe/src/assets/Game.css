@@ -1,0 +1,31 @@
+
+h1 span {
+    color: rgb(3, 154, 124);
+}
+.container button {
+    border:1px solid rgb(15, 11, 0);
+    background-color: rgb(3, 154, 124);
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.board{
+    height: 600px;
+    width: 564px;
+    display:flex
+}
+
+.boxes {
+    display:flex;
+    height: 180px;
+    width: 180px;
+    background-color: rgb(3, 154, 124);
+    border: 2px solid rgb(0, 255, 174);
+    cursor:pointer
+}
+
+.boxes img {
+    margin: 40px
+}
