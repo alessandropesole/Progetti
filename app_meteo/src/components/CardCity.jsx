@@ -70,6 +70,7 @@ const CardCity = () => {
  utilizzo come key nel map l'id univoco di ciascun oggetto presente nella fetch*/
   return (
     <>
+    {city.length > 0 ?
       <div id="div-card">
         <div id="div-head">
           <Container className="d-flex flex-column mt-5  align-items-center" >
@@ -125,7 +126,10 @@ const CardCity = () => {
         </Row>
 
       </div>
-
+      : <div className="d-flex align-items-center">
+        <h3 className="text-light"> Inserisci una città! </h3>
+        <img src="../src/assets/imgs/sadcloud.gif" />
+        </div>}
     </>
   )
 }
