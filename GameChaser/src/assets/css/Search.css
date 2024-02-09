@@ -1,0 +1,12 @@
+.search-input {
+   width: 15vw;
+    color:white;
+     background-color:transparent;
+      border:1px solid white
+}
+.game-card {
+      width: 22rem;
+      background-color:blueviolet;
+      color:white;
+      border:3px solid blueviolet
+}

@@ -1,0 +1,12 @@
+.container-allgames {
+    margin-top: 10vh;
+}
+h3{
+    font-size: 2.5rem;
+    background-color:blueviolet;
+     padding: 10px;
+     border-radius: 10px
+}
+.link {
+    font-size: 1.3rem;
+}

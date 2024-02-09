@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,600;1,400&display=swap');
+
+body {
+    min-height: 100vh;
+    background: rgb(16,0,17);
+    background: linear-gradient(291deg, rgba(16,0,17,1) 0%, rgba(88,0,80,1) 76%);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+::-webkit-input-placeholder { color: #ffffff; }
